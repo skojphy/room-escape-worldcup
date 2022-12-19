@@ -1,0 +1,26 @@
+:global(*, :after, :before) {
+  box-sizing: border-box;
+}
+:global(*) {
+  margin: 0;
+}
+:global(body, html) {
+  height: 100%;
+}
+:global(body) {
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+:global(canvas, img, picture, svg, video) {
+  display: block;
+  max-width: 100%;
+}
+:global(button, input, select, textarea) {
+  font: inherit;
+}
+:global(h1, h2, h3, h4, h5, h6, p) {
+  overflow-wrap: break-word;
+}
+:global(#__next, #root) {
+  isolation: isolate;
+}
